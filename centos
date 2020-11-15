@@ -1,6 +1,0 @@
-FROM centos
-MAiNTAINER arunabakarr2005@yahoo.com
-RUN yum update -y
-RUN yum install apache -y
-ENV A=/var/www/htnl
-CMD FOREGROUND apache/apache
